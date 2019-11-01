@@ -32,7 +32,6 @@ namespace Tree
             tree.PostorderTraversal();
             Console.WriteLine();
             Console.WriteLine("Hello World");
-            int c = 2 == 2 ? 0 : 1;
         }
     }
 }
