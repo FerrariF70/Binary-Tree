@@ -10,6 +10,10 @@ namespace Tree
     {
         static void Main(string[] args)
         {
+            try
+            {
+
+
             Tree tree = new Tree();
             int insertValue;
 
@@ -32,6 +36,12 @@ namespace Tree
             tree.PostorderTraversal();
             Console.WriteLine();
             Console.WriteLine("Hello World");
+            }
+            catch(Exception ex)
+            {
+                
+            }
+
         }
     }
 }
